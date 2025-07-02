@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<script>
+    document.addEventListener("DOMContentLoaded",()=>{
+        const pass = document.getElementById("pass");
+        const show = document.getElementById("show");
+
+        show.addEventListener("click",()=>{
+            if(pass.type === 'password'){
+                pass.type = "text"
+            }else{
+                pass.type = "password"
+            }
+        })
+    })
+</script>
+<body>
+   <center>
+     <form>
+        <h1>Registration Form!</h1>
+        <input type="text" placeholder="Please Enter your Fullname here..."> <br>
+        <input type="email" placeholder="sample@sample.com"> <br>
+        <input type="password" id="pass" placeholder="************">
+        <input type="checkbox" id="show">
+        <br>
+        <input type="number" placeholder="(251)-9xxxxxxxxxxx"> <br>
+        <label>Gender</label> <br>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female <br>
+        <label>Countary</label> <br>
+        <select>
+            <option value="USA">USA</option>
+            <option value="Somaliland">Somaliland</option>
+            <option value="Saudi Arabia">Saudi Arabia</option>
+            <option value="Turki">Turki</option>
+            <option value="Ustralia">Australia</option>
+            <option value="Brazil">Brazil</option>
+        </select> <br>
+        <label>check your level</label> <br>
+        <input type="checkbox" checked>Beginner
+        <input type="checkbox">Intermediate
+        <input type="checkbox" >Professional 
+        <input type="checkbox" disabled title="Fadlan wanu ka xunahay lama qaadan wali Heerkan!.">Exprience <br>
+        <br>
+        <button type="submit">Send</button>
+        <button type="reset">Clear</button>
+    </form>
+   </center>
+</body>
+</html>
