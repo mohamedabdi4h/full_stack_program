@@ -1,0 +1,43 @@
+/* By element Selector. */
+h1{
+    color:red;
+    font-size: 50px;
+    text-align:center;
+}
+/* By Class Selector */
+.css-developer{
+    font-size: 22px;
+    color: brown;
+    background-color: palevioletred;
+    text-align: left;
+}
+
+/* By id Selector */
+#identation{
+    background-color: darkblue;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+}
+
+/* By Universal Selector */
+/* *{
+    background-color:black;
+    color: white;
+} */
+
+span{
+    color: orange;
+}
+
+body{
+    background-image: url('https://wallpapers.com/images/featured/ultra-hd-wazf67lzyh5q7k32.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Css
+1. Vanilla css
+2. css FrameWorks
+*/
