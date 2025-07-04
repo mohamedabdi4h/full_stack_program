@@ -1,0 +1,26 @@
+.box{
+    border: 5px solid red;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.box1{
+    border: 2px solid blue;
+    margin: 5px;
+    padding: 10px;
+    width: 40px;
+}
+.box2{
+    border: 2px solid green;
+      margin: 5px;
+    padding: 10px;
+    width: 40px;
+}
+
+.box3{
+    border: 2px solid black;
+      margin: 5px;
+    padding: 10px;
+    width: 40px;
+}
