@@ -72,3 +72,154 @@
     color: white;
      transition: all 0.3s ease;
 }
+
+/* Courses Style section */
+.courses {
+    display: flex;
+    margin: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* web */
+.web {
+    box-shadow: 2px 2px 14px gray;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 330px;
+}
+.web img{
+    width: 300px;
+}
+
+.web .content-web{
+    padding: 10px;
+}
+
+
+/* mobile */
+.mobile {
+    box-shadow: 2px 2px 14px gray;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 330px;
+}
+.mobile img{
+    width: 300px;
+}
+
+.mobile .content-mobile{
+    padding: 10px;
+}
+
+/* Devops */
+
+.devops {
+    box-shadow: 2px 2px 14px gray;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 330px;
+}
+.devops img{
+    width: 300px;
+}
+
+.devops .content-devops{
+    padding: 10px;
+}
+
+/* Gaming */
+.gaming {
+    box-shadow: 2px 2px 14px gray;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 330px;
+}
+.gaming img{
+    width: 300px;
+}
+
+.gaming .content-gaming{
+    padding: 10px;
+}
+
+.avator img{
+    width: 50px;
+}
+.rq{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.flex-avator{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.devops img{
+    height: 165px;
+}
+.gaming img{
+    height: 165px;
+}
+
+.avator-web img{
+    width: 40px;
+    height: 40px;
+    border-radius: 80px;
+}
+
+/* .avator-mobile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+} */
+
+.mobile img{
+    height: 170px;
+}
+
+.avator-devops img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.avator-gaming img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.price{
+    background-color: seagreen;
+    padding: 3px;
+    width: 20%;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+
+}
+.courses-title{
+    text-align: center;
+    font-size: 33px;
+    font-weight: 900;
+    text-decoration: underline;
+    color: indigo;
+}
+
+.footer{
+    display: flex;
+    padding: 20px;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    
+}

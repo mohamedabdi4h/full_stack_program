@@ -6,6 +6,12 @@
     <title>Landing page.</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<script>
+    document.addEventListener("DOMContentLoaded",()=>{
+        const currentYear = document.getElementById("currentYear");
+        currentYear.innerHTML = new Date().getFullYear()
+    })
+</script>
 <body>
     <!-- Header section -->
      <div class="header-section">
@@ -15,7 +21,7 @@
         <div class="navigation">
             <div class="home">Home</div>
             <div class="about">About</div>
-            <div class="courses">Courses</div>
+            <div class="course">Courses</div>
         </div>
         <div class="btns">
             <div class="login">Login</div>
@@ -34,48 +40,82 @@
         </div>
       </div>
       <!-- courses -->
+      <h1 class="courses-title">Courses</h1>
        <div class="courses">
         <div class="web">
             <img src="./web.jpg" alt="">
-            <h2>Web Development</h2>
+           <div class="content-web">
+             <h2>Web Development</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, dolorem!</p>
             <div class="rq">
+                <div class="flex-avator">
+                    <div class="avator-web">
+                    <img src="https://img.freepik.com/free-vector/smiling-young-man-glasses_1308-174373.jpg?semt=ais_country_boost&w=740" alt="">
+                </div>
                 <div class="title">Mohamedabdi</div>
+                </div>
                 <div class="price">$15</div>
             </div>
+           </div>
         </div>
         <!-- mobile -->
           <div class="mobile">
             <img src="./mobile.avif" alt="">
-            <h2>Mobile App Development</h2>
+            <div class="content-mobile">
+                <h2>Mobile App Development</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, dolorem!</p>
             <div class="rq">
+                <!-- <div class="flex-avator">
+                    <div class="avator-mobile">
+                    <img src="https://cdn3d.iconscout.com/3d/premium/thumb/programmer-3d-icon-download-in-png-blend-fbx-gltf-file-formats--development-coding-programming-developer-profession-avatar-pack-people-icons-11757512.png" alt="">
+                </div>
                 <div class="title">Adnaan Abdulle</div>
+                </div> -->
                 <div class="price">$35</div>
+            </div>
             </div>
         </div>
 
         <!-- Devops -->
           <div class="devops">
             <img src="./devops.png" alt="">
-            <h2>DevOps Engineering</h2>
+           <div class="content-devops">
+             <h2>DevOps Engineering</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, dolorem!</p>
             <div class="rq">
+               <div class="flex-avator">
+                 <div class="avator-devops">
+                    <img src="https://thumbs.dreamstime.com/b/d-stylized-representation-young-malay-woman-wearing-soft-pink-hijab-glasses-slight-smile-exuding-friendly-311380615.jpg" alt="">
+                </div>
                 <div class="title">Ayaan hassan</div>
+               </div>
                 <div class="price">$25</div>
             </div>
+           </div>
         </div>
 
         <!-- Gaming -->
-          <div class="web">
+          <div class="gaming">
             <img src="./gaming.jpeg" alt="">
-            <h2>Gaming Development</h2>
+            <div class="content-gaming">
+                <h2>Gaming Development</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, dolorem!</p>
             <div class="rq">
+              <div class="flex-avator">
+                  <div class="avator-gaming">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfs8deM9Ffg18-uTzqAMTNtE_v9yc5FOm0Jg&s" alt="">
+                </div>
                 <div class="title">Sidiik Omer</div>
+              </div>
                 <div class="price">$45</div>
             </div>
+            </div>
         </div>
+       </div>
+       <div class="footer">
+        <div class="year" id="currentYear">2000</div>
+        <div class="powered">poweredby: <span>CodexLearn</span></div>
+        <div class="followus">Follow us on:</div>
        </div>
 </body>
 </html>
