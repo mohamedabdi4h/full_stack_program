@@ -1,0 +1,44 @@
+#form-submit{
+    background-color: rgb(38, 38, 38);
+    padding: 40px;
+    width: 350px;
+    border-radius: 10px;
+    margin: auto;
+    justify-content: center;
+}
+
+body{
+    background-color: black;
+}
+
+#input-add{
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#submit{
+    background-color: seagreen;
+    border: 0;
+    width: 22%;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p{
+    background-color: white;
+    color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    /* border: 1px solid #ccc; */
+}
+
+#input-add::placeholder{
+    font-size: 18px;
+    color: rgb(161, 161, 161);
+}
